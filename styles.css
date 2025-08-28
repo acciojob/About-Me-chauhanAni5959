@@ -1,1 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+}
 
+.profile-container {
+  display: flex;
+  max-width: 1000px;
+  background: #fff;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.left-section {
+  width: 45%;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.right-section {
+  width: 55%;
+  padding-left: 30px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #007BFF;
+}
+
+.basic-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+h2 {
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  color: #007BFF;
+}
+
+.skill-group {
+  margin-top: 15px;
+  position: relative;
+}
+
+.skill-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.skill-icons img,
+.skill-icons i {
+  width: 24px;
+  height: 24px;
+}
+
+.progress-bar {
+  background: #e0e0e0;
+  border-radius: 5px;
+  height: 10px;
+  width: 100%;
+}
+
+.fill {
+  background: #007BFF;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.percent {
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+  text-align: right;
+  color: #333;
+}
+
+.right-section p {
+  margin: 15px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
